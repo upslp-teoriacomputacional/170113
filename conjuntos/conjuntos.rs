@@ -40,10 +40,10 @@ fn main() {
     subconjunto();
     superconjunto();
 }
-//Convertir a un conjunto
 
 fn pertenencia(){
     #![allow(non_snake_case)]
+    println!("Pertenencia");
     let set: HashSet<_> = [1, 2, 3, 4, 5].iter().collect();
     println!("1 is in A: {}",set.contains(&1));
     println!("1 is not in A: {}",!set.contains(&1));
@@ -51,8 +51,10 @@ fn pertenencia(){
     println!("10 is not in A: {}",!set.contains(&10));
 }
 
+//Convertir a un conjunto
 fn transformarConj(){
     #![allow(non_snake_case)]
+    println!("Convertir a un conjunto");
     let A = [1,2,3,4,5];    //arreglo
     let set: HashSet<i32> = A.iter().cloned().collect();
     println!("A: {:?}", set);
@@ -70,6 +72,7 @@ fn transformarConj(){
 //Remove an item from the set
 fn quitar(){
     #![allow(non_snake_case)]
+    println!("Quitar elemento");
     let mut A: HashSet<i32>=vec![1,2,3,4,5].into_iter().collect();
     assert!(A.remove(&2));
     println!("The new set A: {:?}", A);
@@ -78,6 +81,7 @@ fn quitar(){
 //Remove all items from the set
 fn clearSet(){
     #![allow(non_snake_case)]
+    println!("Vaciar Conjunto");
     let mut a = HashSet::new();
     a.insert(1);
     a.insert(2);
@@ -89,8 +93,10 @@ fn clearSet(){
 }
 
 fn copiar(){
-    let mut A: HashSet<i32>=vec![1,2,3,4,5].into_iter().collect();
-    let  mut B: HashSet<_> = A;
+    #![allow(non_snake_case)]
+    println!("Copiar");
+    let A: HashSet<_> = [1, 2, 3, 4, 5].iter().collect();
+    let B: HashSet<_> = A.clone();
     println!("A: {:?}", A);
     println!("B: {:?}", B);
 
@@ -99,6 +105,7 @@ fn copiar(){
 //Add an item
 fn agregar(){
     #![allow(non_snake_case)]
+    println!("Agregar");
     let mut B: HashSet<i32>=vec![3,4,5,6,7].into_iter().collect(); 
     assert!(B.insert(987));
     println!("The new set B: {:?}", B);
@@ -163,5 +170,3 @@ fn superconjunto(){
     println!("Subset: {:?}",A.is_superset(&B));
     println!("Subset: {:?}",B.is_superset(&A));
 }
-
-
