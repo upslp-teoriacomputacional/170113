@@ -1,3 +1,17 @@
+/*
+*Nombre:     Yair Briones de la Rosa
+*Matricula:  170113
+*Carrera:    ITI
+ 
+*Descripción: Programa que inicializa 3 conjuntos, y 
+            lleva a cabo las operaciones basicas de estos
+            (añadir, borrar, union, intersección, etc.)
+ 
+*Escrito:       10/09/2020
+*Ultima actualización:  14/09/2020
+ 
+*% Rust
+*/
 extern crate regex;     //dependencia 
 //modulos
 use std::process;
