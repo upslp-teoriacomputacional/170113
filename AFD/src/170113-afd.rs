@@ -3,12 +3,10 @@
 *Matricula:  170113
 *Carrera:    ITI
  
-*Descripción: Programa que inicializa 3 conjuntos, y 
-            lleva a cabo las operaciones basicas de estos
-            (añadir, borrar, union, intersección, etc.)
+*Descripción: Programa que realiza un AFD
  
-*Escrito:       10/09/2020
-*Ultima actualización:  14/09/2020
+*Escrito:       05/10/2020
+*Ultima actualización:  05/10/2020
  
 *% Rust
 */
