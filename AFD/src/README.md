@@ -28,12 +28,7 @@
         segundo digito: (+|-|*|/)
         tercer digito: [0-9]
     De esta forma el automata solo acepta cadenas que definan una operacion con digitos del 0 al 9
-    La matriz de reglas es:
-        Estado	Digitos	Operadores	Fin de cadena
-        q0	    q1	    Error	    Error
-        q1	    Error	q2	        Error
-        q2	    qf	    Error	    Error
-        qf	    error	Error	    Aceptacion
+
 
 # Problemas al programar
 
