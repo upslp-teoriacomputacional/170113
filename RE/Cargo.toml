@@ -1,0 +1,14 @@
+[package]
+name = "RE"
+version = "0.1.0"
+authors = ["BoingDeFresa <170113@upslp.edu.mx>"]
+edition = "2018"
+[[bin]]
+name = "RE"
+path = "src/170113-re.rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
