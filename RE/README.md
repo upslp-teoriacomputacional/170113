@@ -45,6 +45,7 @@
         }
         
 Cuando se ejecuta este fragmento de código, la salida debe ser la siguiente:
+
     ['DATATYPE', 'int'], ['IDENTIFIER', 'acumulador'], ['OPERATOR', '='], ['INTEGER', '9'], ['END_STATEMENT', ';']
 
 # Problemas al programar
