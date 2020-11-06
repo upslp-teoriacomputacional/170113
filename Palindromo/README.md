@@ -13,6 +13,13 @@
         'a''n''i''t''a''l''a''v''a''l''a''t''i''n''a'
         El palindromo: anita lava la tina, es valido
 
+            +-------------------------------------+
+            |    Ingrese una cadena a evaluar:    |
+            +-------------------------------------+
+        a mi me mima
+        'a''m''i''m''e''m''i''m''a'
+        El palindromo: a mi me mima, es valido
+
 # Ejecucion de la aplicacion
 
     Para la compilacion
